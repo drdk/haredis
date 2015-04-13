@@ -2,7 +2,7 @@
   "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
   "name": "haredis",
   "description": "High-availability redis in Node.js",
-  "version": "0.2.15",
+  "version": "0.2.20",
   "repository": {
     "type": "git",
     "url": "git://github.com/carlos8f/haredis.git"
@@ -12,9 +12,9 @@
     "test": "make test"
   },
   "dependencies": {
-    "redis": "~0.7.2",
-    "async": "~0.1.22",
-    "pkginfo": "~0.2.3"
+    "async": "^0.9.0",
+    "pkginfo": "^0.3.0",
+    "redis": "^0.12.1"
   },
   "devDependencies": {
     "mocha": "~1.9.0",
